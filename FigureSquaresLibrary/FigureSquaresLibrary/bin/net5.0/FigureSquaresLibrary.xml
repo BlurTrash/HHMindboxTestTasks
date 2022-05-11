@@ -1,0 +1,86 @@
+<?xml version="1.0"?>
+<doc>
+    <assembly>
+        <name>FigureSquaresLibrary</name>
+    </assembly>
+    <members>
+        <member name="M:FigureSquaresLibrary.Circle.GetArea">
+            <summary>
+            Метод возвращающий площадь окружности
+            </summary>
+        </member>
+        <member name="M:FigureSquaresLibrary.Circle.GetName">
+            <summary>
+            Метод возвращающий имя фигуры
+            </summary>
+        </member>
+        <member name="M:FigureSquaresLibrary.Circle.GetPerimetr">
+            <summary>
+            Метод возвращающий периметр окружности
+            </summary>
+        </member>
+        <member name="T:FigureSquaresLibrary.Figure">
+            <summary>
+            Абстрактный класс Фигуры, для создания новой фигуры достаточно реализовать его
+            </summary>
+        </member>
+        <member name="M:FigureSquaresLibrary.Figure.GetName">
+            <summary>
+            Метод возвращающий имя фигуры
+            </summary>
+        </member>
+        <member name="M:FigureSquaresLibrary.Figure.GetArea">
+            <summary>
+            Метод возвращающий площадь
+            </summary>
+        </member>
+        <member name="M:FigureSquaresLibrary.Figure.GetPerimetr">
+            <summary>
+            Метод возвращающий периметр
+            </summary>
+        </member>
+        <member name="M:FigureSquaresLibrary.Figure.FigureInfo">
+            <summary>
+            Метод возвращающий информацию о фигуре
+            </summary>
+        </member>
+        <member name="T:FigureSquaresLibrary.FigurePrototype">
+            <summary>
+            Статический класс для работы с обьектами типа Figure
+            </summary>
+        </member>
+        <member name="M:FigureSquaresLibrary.FigurePrototype.GetAreaFigure(FigureSquaresLibrary.Figure)">
+            <summary>
+            Статический метод возвращающий площадь фигуры, если тип фигуры на момент выполнения не известен
+            </summary>
+            <param name="figure">Принимает на вход абстрактную фигуру</param>
+        </member>
+        <member name="M:FigureSquaresLibrary.FigurePrototype.GetPerimetrFigure(FigureSquaresLibrary.Figure)">
+            <summary>
+            Статический метод возвращающий периметр фигуры, если тип фигуры на момент выполнения не известен
+            </summary>
+            <param name="figure">Принимает на вход абстрактную фигуру</param>
+        </member>
+        <member name="M:FigureSquaresLibrary.Triangle.GetArea">
+            <summary>
+            Метод возвращающий площадь треугольника
+            </summary>
+        </member>
+        <member name="M:FigureSquaresLibrary.Triangle.GetName">
+            <summary>
+            Метод возвращающий имя фигуры
+            </summary>
+        </member>
+        <member name="M:FigureSquaresLibrary.Triangle.GetPerimetr">
+            <summary>
+            Метод возвращающий периметр треугольника
+            </summary>
+        </member>
+        <member name="M:FigureSquaresLibrary.Triangle.IsRightTriangle">
+            <summary>
+            Метод определяет является ли треугольник - Равносторонним
+            </summary>
+            <returns>Возвращает true - если треугольник прямоугольный, иначе false</returns>
+        </member>
+    </members>
+</doc>
