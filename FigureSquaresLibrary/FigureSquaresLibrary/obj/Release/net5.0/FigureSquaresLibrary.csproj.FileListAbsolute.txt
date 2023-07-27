@@ -1,0 +1,12 @@
+C:\Programming\Собеседования(тестовые задания)\Mindbox(Москва)\Tasks\FigureSquaresLibrary\FigureSquaresLibrary\bin\Release\net5.0\FigureSquaresLibrary.deps.json
+C:\Programming\Собеседования(тестовые задания)\Mindbox(Москва)\Tasks\FigureSquaresLibrary\FigureSquaresLibrary\bin\Release\net5.0\FigureSquaresLibrary.dll
+C:\Programming\Собеседования(тестовые задания)\Mindbox(Москва)\Tasks\FigureSquaresLibrary\FigureSquaresLibrary\bin\Release\net5.0\FigureSquaresLibrary.pdb
+C:\Programming\Собеседования(тестовые задания)\Mindbox(Москва)\Tasks\FigureSquaresLibrary\FigureSquaresLibrary\obj\Release\net5.0\FigureSquaresLibrary.csproj.AssemblyReference.cache
+C:\Programming\Собеседования(тестовые задания)\Mindbox(Москва)\Tasks\FigureSquaresLibrary\FigureSquaresLibrary\obj\Release\net5.0\FigureSquaresLibrary.GeneratedMSBuildEditorConfig.editorconfig
+C:\Programming\Собеседования(тестовые задания)\Mindbox(Москва)\Tasks\FigureSquaresLibrary\FigureSquaresLibrary\obj\Release\net5.0\FigureSquaresLibrary.AssemblyInfoInputs.cache
+C:\Programming\Собеседования(тестовые задания)\Mindbox(Москва)\Tasks\FigureSquaresLibrary\FigureSquaresLibrary\obj\Release\net5.0\FigureSquaresLibrary.AssemblyInfo.cs
+C:\Programming\Собеседования(тестовые задания)\Mindbox(Москва)\Tasks\FigureSquaresLibrary\FigureSquaresLibrary\obj\Release\net5.0\FigureSquaresLibrary.csproj.CoreCompileInputs.cache
+C:\Programming\Собеседования(тестовые задания)\Mindbox(Москва)\Tasks\FigureSquaresLibrary\FigureSquaresLibrary\obj\Release\net5.0\FigureSquaresLibrary.dll
+C:\Programming\Собеседования(тестовые задания)\Mindbox(Москва)\Tasks\FigureSquaresLibrary\FigureSquaresLibrary\obj\Release\net5.0\ref\FigureSquaresLibrary.dll
+C:\Programming\Собеседования(тестовые задания)\Mindbox(Москва)\Tasks\FigureSquaresLibrary\FigureSquaresLibrary\obj\Release\net5.0\FigureSquaresLibrary.pdb
+C:\Programming\Собеседования(тестовые задания)\Mindbox(Москва)\Tasks\FigureSquaresLibrary\FigureSquaresLibrary\obj\Release\net5.0\refint\FigureSquaresLibrary.dll

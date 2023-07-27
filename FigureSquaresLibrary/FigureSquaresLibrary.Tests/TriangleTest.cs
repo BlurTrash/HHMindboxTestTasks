@@ -5,7 +5,7 @@ namespace FigureSquaresLibrary.Tests
     [TestClass]
     public class TriangleTest
     {
-        [ExpectedException(typeof(FigureException), "Исключение не брошено!")]
+        [ExpectedException(typeof(ShapeException), "Исключение не брошено!")]
         [TestMethod]
         public void Triangle_IsCorrectSides_0_Exception()
         {
@@ -17,7 +17,7 @@ namespace FigureSquaresLibrary.Tests
             Triangle triangle = new Triangle(aSide, bSide, cSide);
         }
 
-        [ExpectedException(typeof(FigureException), "Исключение не брошено!")]
+        [ExpectedException(typeof(ShapeException), "Исключение не брошено!")]
         [TestMethod]
         public void Triangle_IsCorrectSides_WrongSide_Exception()
         {

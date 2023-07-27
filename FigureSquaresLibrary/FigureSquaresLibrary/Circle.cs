@@ -6,37 +6,25 @@ using System.Threading.Tasks;
 
 namespace FigureSquaresLibrary
 {
-    public class Circle : Figure
+    public class Circle : Shape
     {
-        private double _radius;
-        public Circle(double radius) 
+        private const string SHAPE_NAME = "Круг";
+
+        public double Radius { get; private set; }
+        public Circle(double radius) : base(SHAPE_NAME)
         {
             if (IsCorrectRadius(radius))
             {
-                _radius = radius;
+                Radius = radius;
             }          
         }
+
         /// <summary>
         /// Метод возвращающий площадь окружности
         /// </summary>
         public override double GetArea()
         {
-            return Math.PI * Math.Pow(_radius, 2);
-        }
-        /// <summary>
-        /// Метод возвращающий имя фигуры
-        /// </summary>
-        public override string GetName()
-        {
-            return "Окружность";
-        }
-
-        /// <summary>
-        /// Метод возвращающий периметр окружности
-        /// </summary>
-        public override double GetPerimetr()
-        {
-            return Math.PI * _radius * 2;
+            return Math.PI * Math.Pow(Radius, 2);
         }
 
         //Проверка на корректность радиуса
@@ -44,11 +32,11 @@ namespace FigureSquaresLibrary
         {
             if (radius < 0)
             {
-                throw new FigureException("Радиус не может быть отрицательным!");
+                throw new ShapeException("Радиус не может быть отрицательным!");
             }
             else if (radius == 0)
             {
-                throw new FigureException("Радиус равен нулю!");
+                throw new ShapeException("Радиус равен нулю!");
             }
             return true;
         }

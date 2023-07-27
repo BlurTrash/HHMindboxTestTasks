@@ -6,8 +6,8 @@ using System.Threading.Tasks;
 
 namespace FigureSquaresLibrary
 {
-    public class FigureException : Exception
+    public class ShapeException : Exception
     {
-        public FigureException(string message) : base(message) { }     
+        public ShapeException(string message) : base(message) { }     
     }
 }

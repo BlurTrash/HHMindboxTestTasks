@@ -5,7 +5,7 @@ namespace FigureSquaresLibrary.Tests
     [TestClass]
     public class CircleTest
     {
-        [ExpectedException(typeof(FigureException), "Исключение не брошено!")]
+        [ExpectedException(typeof(ShapeException), "Исключение не брошено!")]
         [TestMethod]
         public void Circle_IsCorrectRadius_0_Exception()
         {
@@ -15,7 +15,7 @@ namespace FigureSquaresLibrary.Tests
             Circle circle = new Circle(x);      
         }
 
-        [ExpectedException(typeof(FigureException), "Исключение не брошено!")]
+        [ExpectedException(typeof(ShapeException), "Исключение не брошено!")]
         [TestMethod]
         public void Circle_IsCorrectRadius_NegativeData_Exception()
         {

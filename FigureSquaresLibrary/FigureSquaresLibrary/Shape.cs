@@ -5,26 +5,29 @@ namespace FigureSquaresLibrary
     /// <summary>
     /// Абстрактный класс Фигуры, для создания новой фигуры достаточно реализовать его
     /// </summary>
-    public abstract class Figure
+    public abstract class Shape
     {
         /// <summary>
-        /// Метод возвращающий имя фигуры
+        /// Имя фигуры
         /// </summary>
-        public abstract string GetName();
+        public string Name { get; private set; }
+
+        public Shape(string shapeName)
+        {
+            Name = shapeName;
+        }
+
         /// <summary>
         /// Метод возвращающий площадь
         /// </summary>
         public abstract double GetArea();
-        /// <summary>
-        /// Метод возвращающий периметр
-        /// </summary>
-        public abstract double GetPerimetr();
+        
         /// <summary>
         /// Метод возвращающий информацию о фигуре
         /// </summary>
-        public virtual void FigureInfo()
+        public virtual string FigureInfo()
         {
-            Console.WriteLine($"Фигура - { GetName()}\nПлощадь - {GetArea()}\nПериметр - {GetPerimetr()}");
+            return $"Фигура - {Name} Площадь - {GetArea()}";
         }
     }
 }

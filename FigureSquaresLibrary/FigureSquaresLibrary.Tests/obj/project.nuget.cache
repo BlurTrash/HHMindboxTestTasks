@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "hZkGHl0CSs3U29H0BGE3kDvxYZ9rTHV4Lm/xLSbdwxtzigLSP6UYno20wmggqxIaSRYV6Kim3+pv706JohXzjA==",
+  "dgSpecHash": "cOoWZB78Kdzc4+yTHeX1eLH0PAzx/k52wc8VdwTpYFwW/liMser+YWVR0Ju/Q/iDiQaIoWqVwbCnv1woKpIl5w==",
   "success": true,
-  "projectFilePath": "C:\\Programming\\Собеседования(тестовые задания)\\Mindbox(Москва)\\Task1\\FigureSquaresLibrary\\FigureSquaresLibrary.Tests\\FigureSquaresLibrary.Tests.csproj",
+  "projectFilePath": "C:\\Programming\\Собеседования(тестовые задания)\\Mindbox(Москва)\\Tasks\\FigureSquaresLibrary\\FigureSquaresLibrary.Tests\\FigureSquaresLibrary.Tests.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\kuvsh\\.nuget\\packages\\coverlet.collector\\3.0.2\\coverlet.collector.3.0.2.nupkg.sha512",
     "C:\\Users\\kuvsh\\.nuget\\packages\\microsoft.codecoverage\\16.9.4\\microsoft.codecoverage.16.9.4.nupkg.sha512",
